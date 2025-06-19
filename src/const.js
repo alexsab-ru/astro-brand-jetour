@@ -7,11 +7,12 @@ export const TIMER = { title: 'До конца акции осталось',subt
 export const MARQUEE = { title: `Тотальная распродажа до ${LAST_DAY}.${MONTH}.${YEAR}`, count: 8, speed: 20, show: false };
 // Ссылка яндекс-виджета
 export const LINK_WIDGET = 'https://yandex.ru/map-widget/v1/-/';
-
 // Ссылки под хедером
 import { groupArrayByKey } from '@/js/utils/groupArrayByKey';
+
 import modelsData from '@/data/models.json';
 const { models } = modelsData;
+
 const groupModelsByBrand = groupArrayByKey(models.filter(model => model.show), 'mark_id');
 const children = Object.keys(groupModelsByBrand).reduce((acc, key) => {
 	acc[key] = groupModelsByBrand[key].map(model => ( { url: `models/${model.id}/`, name: `${model.name.toUpperCase()}`, thumb: model.thumb } ) );
@@ -27,6 +28,17 @@ export const LINKS_MENU = [
 		children
 	},
 	// {url: 'trade-in/', name: 'Оценка автомобиля'},
+	{
+		url: 'for-owners',
+		name: 'Владельцам',
+		children: [
+			{ url: 'for-owners/warranty/', name: 'Гарантия Jetour' },
+			{ url: 'for-owners/manual/', name: 'Руководства по эксплуатации' },
+			{ url: 'for-owners/assistance/', name: 'Правила программы Джетур Ассистанс' },
+			{ url: 'for-owners/club/', name: 'Клуб Jetour' },
+			{ url: 'jetour-connect/', name: 'Jetour Connect' },
+		],
+	},
 	{url: 'special-offers/', name: 'Спецпредложения'},
 	{url: 'news/', name: 'Новости'},
 	{url: 'test-drive/', name: 'Запись на тест-драйв'},
@@ -39,10 +51,11 @@ export const LINKS_MENU = [
 export const COLLECTIONS = [
 	{name: 'special-offers', title: 'Спецпредложения'},
 	{name: 'news', title: 'Новости'},
+	{name: 'for-owners', title: 'Владельцам'},
 ];
 
 // Текст согласия в формах
-export const AGREE_LABEL = '<span>Даю согласие на обработку своих персональных данных на условиях, указанных</span> <a href="/privacy-policy" class="!m-0 underline transition-all hover:no-underline" target="_blank">здесь</a> и на использование cookie на условиях, указанных <a href="/cookie-policy" class="!m-0 underline transition-all hover:no-underline" target="_blank">здесь</a>';
+export const AGREE_LABEL = '<span>Даю согласие на обработку своих персональных данных на условиях, указанных</span> <a href="/privacy-policy" class="!m-0 underline transition-all hover:no-underline" target="_blank">здесь</a>';
 
 // Текст информации в футере
 import salonsData from '@/data/salons.json';
