@@ -481,6 +481,16 @@
                 "Белый": "white.webp"
             }
         },
+        "GS4, I": {
+            "folder": "gs4",
+            "cyrillic": "ГС4",
+            "color": {
+                "Черный": "black.webp",
+                "Серый": "gray.webp",
+                "Серебристый": "silver.webp",
+                "Белый": "white.webp"
+            }
+        },
         "GS5": {
             "folder": "gs5",
             "cyrillic": "ГС5",
@@ -1372,6 +1382,18 @@
                 "Оранжевый": "terracotta-sapphire.webp"
             }
         },
+        "H3, I": {
+            "folder": "h3",
+            "cyrillic": "H3",
+            "color": {
+                "Голубой": "neon-tourmaline.webp",
+                "Черный": "galactic-black.webp",
+                "Чёрный": "galactic-black.webp",
+                "Серый": "ashy-anthracite.webp",
+                "Белый": "noble-agate.webp",
+                "Оранжевый": "terracotta-sapphire.webp"
+            }
+        },
         "H7, I": {
             "folder": "h7",
             "cyrillic": "H7",
@@ -1859,6 +1881,7 @@
             "color": {
                 "Black": "black.webp",
                 "Черный": "black.webp",
+                "Чёрный": "black.webp",
                 "Gray": "gray.webp",
                 "Серый": "gray.webp",
                 "Серебристый": "silver.webp",
@@ -1970,6 +1993,7 @@
                 "Red": "red.webp",
                 "Красный": "red.webp",
                 "Коричневый": "brown.webp",
+                "Бежевый": "brown.webp",
                 "Blue": "blue.webp",
                 "Синий": "blue.webp",
                 "Голубой": "light-blue.webp",
@@ -2083,6 +2107,27 @@
         }
     },
     "Venucia": {
+        "V-Online": {
+            "folder": "v-online",
+            "cyrillic": "Вэ-Онлайн",
+            "color": {
+                "Black": "black.webp",
+                "Черный": "black.webp",
+                "Черный бриллиант": "black.webp",
+                "Gray": "gray.webp",
+                "Серый": "gray.webp",
+                "Серый Бернина": "gray.webp",
+                "White": "white.webp",
+                "Белый": "white.webp",
+                "Искрящийся белый": "white.webp",
+                "Red": "red.webp",
+                "Красный": "red.webp",
+                "Blue": "blue.webp",
+                "Синий": "blue.webp",
+                "Silver": "silver.webp",
+                "Серебристый": "silver.webp"
+            }
+        },
         "V-Online, I": {
             "folder": "v-online",
             "cyrillic": "Вэ-Онлайн",
@@ -2129,6 +2174,24 @@
         "DFSK iХ5 Fengon": {
             "folder": "dfsk-ix5-fengon",
             "cyrillic": "Дэ-эф-эс-ка ай-икс 5 Фенгон",
+            "color": {
+                "Black": "black.webp",
+                "Черный": "black.webp",
+                "Gray": "gray.webp",
+                "Серый": "gray.webp",
+                "White": "white.webp",
+                "Белый": "white.webp",
+                "Red": "red.webp",
+                "Красный": "red.webp",
+                "Blue": "blue.webp",
+                "Синий": "blue.webp",
+                "Silver": "silver.webp",
+                "Серебристый": "silver.webp"
+            }
+        },
+        "DFSK iX5": {
+            "folder": "dfsk-ix5-fengon",
+            "cyrillic": "Дэ-эф-эс-ка ай-икс 5",
             "color": {
                 "Black": "black.webp",
                 "Черный": "black.webp",
