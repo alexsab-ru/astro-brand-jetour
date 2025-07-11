@@ -29,9 +29,20 @@ export const LINKS_MENU = [
 	},
 	// {url: 'trade-in/', name: 'Оценка автомобиля'},
 	{
+		url: 'javascript:void(0)',
+		name: 'Покупателям',
+		children: [
+			{url: 'special-offers/', name: 'Спецпредложения'},
+			{url: 'test-drive/', name: 'Запись на тест-драйв'},
+			
+		],
+	},
+	{
 		url: 'for-owners',
 		name: 'Владельцам',
 		children: [
+			{url: 'special-offers/', name: 'Спецпредложения'},
+			{url: 'service-request/', name: 'Запись на сервис'},
 			{ url: 'for-owners/warranty/', name: 'Гарантия Jetour' },
 			{ url: 'for-owners/manual/', name: 'Руководства по эксплуатации' },
 			{ url: 'for-owners/assistance/', name: 'Правила программы Джетур Ассистанс' },
@@ -39,10 +50,14 @@ export const LINKS_MENU = [
 			{ url: 'jetour-connect/', name: 'Jetour Connect' },
 		],
 	},
-	{url: 'special-offers/', name: 'Спецпредложения'},
-	{url: 'news/', name: 'Новости'},
-	{url: 'test-drive/', name: 'Запись на тест-драйв'},
-	{url: 'service-request/', name: 'Запись на сервис'},
+	{
+		url: 'javascript:void(0)',
+		name: 'О бренде',
+		children: [
+			{url: 'about/', name: 'О бренде JETOUR'},			
+			{url: 'news/', name: 'Новости'},
+		],
+	},
 	{url: '#services', name: 'Услуги'},
 	{url: 'contacts/', name: 'Контакты'},
 ];
