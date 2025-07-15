@@ -34,6 +34,7 @@ export const LINKS_MENU = [
 		children: [
 			{url: 'special-offers/', name: 'Спецпредложения'},
 			{url: 'test-drive/', name: 'Запись на тест-драйв'},
+			{url: 'insurance/', name: 'JETOUR Страхование'},
 			
 		],
 	},
